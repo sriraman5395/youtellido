@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-const SignupForm = () => {
+const Activites = () => {
     const [input, setInput] = useState('');
   const [result, setResult] = useState(0);
   const [calculation, setCalculation] = useState('');
@@ -40,4 +40,4 @@ const SignupForm = () => {
   )
 }
 
-export default SignupForm
+export default Activites

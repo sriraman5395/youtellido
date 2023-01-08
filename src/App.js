@@ -1,6 +1,6 @@
 
 
-import Signupform from './components/SignupForm.jsx';
+
 import Form from './components/Form';
 import Calculator from './components/Calculator';
 import Form2 from './components/Form2';
@@ -13,6 +13,7 @@ import StudentValue from './components/StudentValue.jsx';
 import MasterValue from './components/MasterValue.jsx';
 import StudentError from './components/StudentError.jsx';
 import MasterError from './components/MasterError.jsx';
+import Activites from './components/Activities.jsx';
 
   
 
@@ -27,7 +28,7 @@ function App() {
    
       <Route path="/" element={<Form />} />
       <Route path="/form2" element={<Form2 />} />
-      <Route path="/activites" element={<Signupform />} />
+      <Route path="/activites" element={<Activites />} />
       <Route path="/calculator" element={<Calculator />} />
       <Route path="/studentvalue" element={<StudentValue />} />
       <Route path="/mastervalue" element={<MasterValue />} />

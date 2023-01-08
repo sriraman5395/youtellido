@@ -73,4 +73,7 @@ span{
 .home{
     font-size: 2rem;
 }
+.sign:hover{
+    background: #83e5e5;
+}
 

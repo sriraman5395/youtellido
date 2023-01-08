@@ -67,8 +67,8 @@ input{
   font-size: 0.8rem;
 
 }
-.sub:hover{
-
+.sub:active{
+    background: #83e5e5;
 }
 h3{
     font-family: 'Roboto', sans-serif;
